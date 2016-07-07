@@ -1,0 +1,21 @@
+{
+    "name": "aguimaraes/codeception-propel",
+    "description": "Propel module for Codeception",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Álvaro Guimarães",
+            "email": "alvaroguimaraes@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "codeception/codeception": "*",
+        "propel/propel": "~2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeception\\Module\\": "src/"
+        }
+    }
+}
